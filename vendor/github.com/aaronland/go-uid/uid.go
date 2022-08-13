@@ -4,14 +4,15 @@ import (
 	"context"
 	"fmt"
 	"github.com/aaronland/go-roster"
+	"log"
 	"net/url"
 	"sort"
 	"strings"
 )
 
 type Provider interface {
-	Open(context.Context, string) error
 	UID(context.Context, ...interface{}) (UID, error)
+	SetLogger(context.Context, *log.Logger) error
 }
 
 type UID interface {
