@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/aaronland/go-brooklynintegers-api v1.2.6
-	github.com/aaronland/go-uid v0.3.0
+	github.com/aaronland/go-uid v0.4.0
 	github.com/aaronland/go-uid-artisanal v0.0.2
 )
 
