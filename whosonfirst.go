@@ -1,10 +1,14 @@
 package whosonfirst
 
 import (
-	"context"
 	_ "github.com/aaronland/go-brooklynintegers-api"
+	_ "github.com/aaronland/go-uid-artisanal"	
+)
+
+import (
+	"context"
+
 	"github.com/aaronland/go-uid"
-	_ "github.com/aaronland/go-uid-artisanal"
 )
 
 const WHOSONFIRST_SCHEME string = "whosonfirst"

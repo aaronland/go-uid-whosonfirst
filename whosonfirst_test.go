@@ -3,8 +3,9 @@ package whosonfirst
 import (
 	"context"
 	"fmt"
-	"github.com/aaronland/go-uid"
 	"testing"
+
+	"github.com/aaronland/go-uid"	
 )
 
 func TestWhosonfirstProvider(t *testing.T) {
