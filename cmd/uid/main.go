@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/aaronland/go-uid"
-	_ "github.com/aaronland/go-uid-whosonfirst"	
+	_ "github.com/aaronland/go-uid-whosonfirst"
 )
 
 func main() {

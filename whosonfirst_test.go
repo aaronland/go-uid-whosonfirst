@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aaronland/go-uid"	
+	"github.com/aaronland/go-uid"
 )
 
 func TestWhosonfirstProvider(t *testing.T) {

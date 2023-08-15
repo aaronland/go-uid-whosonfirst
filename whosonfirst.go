@@ -1,20 +1,23 @@
 package whosonfirst
 
-import (
-	_ "github.com/aaronland/go-brooklynintegers-api"
-	_ "github.com/aaronland/go-uid-artisanal"	
-)
+import ()
 
 import (
 	"context"
 
+	"github.com/aaronland/go-brooklynintegers-api"
 	"github.com/aaronland/go-uid"
+	"github.com/aaronland/go-uid-artisanal"
 )
 
 const WHOSONFIRST_SCHEME string = "whosonfirst"
 
 func init() {
 	ctx := context.Background()
+
+	api.RegisterClientSchemes(ctx)
+	artisanal.RegisterProviderSchemes(ctx)
+
 	uid.RegisterProvider(ctx, WHOSONFIRST_SCHEME, NewWhosOnFirstProvider)
 }
 
