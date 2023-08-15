@@ -4,9 +4,10 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	"log"
+
 	"github.com/aaronland/go-uid"
 	_ "github.com/aaronland/go-uid-whosonfirst"
-	"log"
 )
 
 func main() {
