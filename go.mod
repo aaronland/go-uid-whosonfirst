@@ -1,6 +1,6 @@
 module github.com/aaronland/go-uid-whosonfirst
 
-go 1.18
+go 1.22
 
 require (
 	github.com/aaronland/go-brooklynintegers-api v1.2.7
