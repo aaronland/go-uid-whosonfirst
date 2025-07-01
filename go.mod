@@ -3,9 +3,9 @@ module github.com/aaronland/go-uid-whosonfirst
 go 1.22
 
 require (
-	github.com/aaronland/go-brooklynintegers-api v1.2.9
+	github.com/aaronland/go-brooklynintegers-api v1.2.10
 	github.com/aaronland/go-uid v0.5.0
-	github.com/aaronland/go-uid-artisanal v0.0.4
+	github.com/aaronland/go-uid-artisanal v0.0.5
 )
 
 require (
